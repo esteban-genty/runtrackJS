@@ -1,0 +1,33 @@
+.exercice{
+    display: flex;
+    flex-direction: column
+}
+
+.exercice img{
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+#gagne{
+    color: green;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#perdu{
+    color: red;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
