@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialize - JOB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Inscription</a></li>
+                <li><a href="index.html">Connexion</a></li>
+                <li><a href="index.html">Rechercher</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="row">
+
+        <form action="#" method="POST" class="col s12">
+            <!-- Civilité -->
+            <p>
+                <label>
+                    <input type="radio" name="civilite" value="M" checked class="with-gap">
+                    <span>Monsieur</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="civilite" value="Mme" class="with-gap">
+                    <span>Madame</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="civilite" value="Autre" class="with-gap">
+                    <span>Autre</span>
+                </label>
+            </p>
+            
+            <!-- Informations personnelles -->
+            <div class="input-field">
+                <input type="text" name="prenom" required id="prenom" class="validate">
+                <label for="prenom">Prénom</label>
+            </div>
+    
+            <div class="input-field">
+                <input type="text" name="nom" required id="nom" class="validate">
+                <label for="nom">Nom</label>
+            </div>
+    
+            <div class="input-field">
+                <input type="text" name="adresse" required id="adresse" class="validate">
+                <label for="adresse">Adresse</label>
+            </div>
+    
+            <div class="input-field">
+                <input type="email" name="email" required id="email" class="validate">
+                <label for="email">Email</label>
+            </div>
+    
+            <div class="input-field">
+                <input type="password" name="password" required id="password" class="validate">
+                <label for="password">Mot de passe</label>
+            </div>
+    
+            <div class="input-field">
+                <input type="password" name="confirm_password" required id="confirm_password" class="validate">
+                <label for="confirm_password">Confirmer le mot de passe</label>
+            </div>
+    
+            <!-- Passions -->
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" class="filled-in" name="passions" value="informatique">
+                    <span>Informatique</span>
+                </label>
+                <label>
+                    <input type="checkbox" class="filled-in" name="passions" value="voyages">
+                    <span>Voyages</span>
+                </label>
+                <label>
+                    <input type="checkbox" class="filled-in" name="passions" value="sport">
+                    <span>Sport</span>
+                </label>
+                <label>
+                    <input type="checkbox" class="filled-in" name="passions" value="lecture">
+                    <span>Lecture</span>
+                </label>
+            </div>
+    
+            <!-- Bouton de validation -->
+            <div class="input-field">
+                <button type="submit" class="btn waves-effect waves-light">Créer mon compte</button>
+            </div>
+        </form>
+    </section>
+    
+    
+    
+
+    <footer class="page-footer m-0">
+        <ul class="container center-align">
+            <li><a href="index.html" class="white-text">Accueil</a></li>
+            <li><a href="index.html" class="white-text">Inscription</a></li>
+            <li><a href="index.html" class="white-text">Connexion</a></li>
+            <li><a href="index.html" class="white-text">Rechercher</a></li>
+        </ul>
+    </footer>
+    
+    
+    
+</body>
+</html>
