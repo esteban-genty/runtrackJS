@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailWindCSS - JOB</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <header class="flex items-center justify-center h-20 bg-purple-600">
+        <nav>
+            <ul class="flex flex-row gap-10">
+                <li><a href="index.html" class="text-purple-100">Accueil</a></li>
+                <li><a href="index.html" class="text-purple-100">Inscription</a></li>
+                <li><a href="index.html" class="text-purple-100">Connexion</a></li>
+                <li><a href="index.html" class="text-purple-100">Rechercher</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+
+            <form action="#" method="POST">
+                    <label>
+                        <input type="radio" name="civilite" value="M" checked>
+                        <span>Monsieur</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="civilite" value="Mme">
+                        <span>Madame</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="civilite" value="Autre">
+                        <span>Autre</span>
+                    </label>
+                <br><br>
+                
+                <!-- Informations personnelles -->
+                <label>Prénom : <input type="text" name="prenom" required></label>
+                <br><br>
+                <label>Nom : <input type="text" name="nom" required></label>
+                <br><br>
+                <label>Adresse : <input type="text" name="adresse" required></label>
+                <br><br>
+                <label>Email : <input type="email" name="email" required></label>
+                <br><br>
+                <label>Mot de passe : <input type="password" name="password" required></label>
+                <br><br>
+                <label>Confirmer le mot de passe : <input type="password" name="confirm_password" required></label>
+                <br><br>
+                
+                <!-- Passions -->
+                <label><input type="checkbox" name="passions" value="informatique"> <span>Informatique</span></label>
+                <label><input type="checkbox" name="passions" value="voyages"> <span>Voyages</span></label>
+                <label><input type="checkbox" name="passions" value="sport"> <span>Sport</span></label>
+                <label><input type="checkbox" name="passions" value="lecture"> <span>Lecture</span></label>
+                <br><br>
+                
+                <!-- Bouton de validation -->
+                <button type="submit">Créer mon compte</button>
+            </form>
+
+        </section>
+    </main>
+    
+
+    <footer class="fixed w-full bg-purple-600 bottom-0">
+        <ul class="flex items-center justify-center flex-col h-40 gap-2">
+            <li><a href="index.html" class="text-purple-100">Accueil</a></li>
+            <li><a href="index.html" class="text-purple-100">Inscription</a></li>
+            <li><a href="index.html" class="text-purple-100">Connexion</a></li>
+            <li><a href="index.html" class="text-purple-100">Rechercher</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
